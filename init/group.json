@@ -1,0 +1,12 @@
+[
+  {
+    "id": "template_bigScreen_init",
+    "projectPageType": "bigScreen",
+    "name": "内置模版"
+  },
+  {
+    "id": "template_configuration_init",
+    "projectPageType": "configuration",
+    "name": "内置模版"
+  }
+]
