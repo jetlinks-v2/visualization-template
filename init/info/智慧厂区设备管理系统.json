@@ -1,0 +1,3220 @@
+[{
+  "template": {
+    "name": "智慧厂区设备管理系统",
+    "configuration": {},
+    "thumbnailUrl": "智慧厂区设备管理系统.png",
+    "description": "智慧厂区设备管理系统",
+    "group": "template_bigScreen_init",
+    "templateType": "visProject",
+    "projectPageType": "bigScreen"
+  },
+  "pages": [
+    {
+      "id": "9c387557b255f9df8a381bbf1a4f8ec1",
+      "key": "9c387557b255f9df8a381bbf1a4f8ec1",
+      "name": "智慧厂区设备管理系统",
+      "resources": {
+        "image_1745548280937": [
+          0
+        ],
+        "image_1745549261585": [
+          0
+        ],
+        "image_1745549222195": [
+          0
+        ],
+        "image_1745549240289": [
+          0
+        ],
+        "component_1745473167045": [
+          0
+        ],
+        "component_1745458608776": [
+          0
+        ],
+        "component_1745483186354": [
+          0
+        ],
+        "image_1745546155545": [
+          0
+        ],
+        "image_1745546177681": [
+          0
+        ]
+      },
+      "files": {},
+      "thumbnailUrl": "",
+      "page": {
+        "canvas": {
+          "width": 1920,
+          "height": 1080,
+          "scale": 0.8099152845456055,
+          "name": "画布",
+          "adaptationType": "AUTO",
+          "backgroundColor": "rgba(2,17,25,1)",
+          "backgroundImage": {
+            "url": "",
+            "field": ""
+          }
+        },
+        "components": [
+          {
+            "type": "resourceImage",
+            "visible": true,
+            "isLocked": false,
+            "name": "图片",
+            "componentProps": {
+              "resource": {
+                "id": "image_1745548280937",
+                "version": 0
+              },
+              "style": {
+                "x": 257,
+                "y": 60,
+                "width": 1663,
+                "height": 899,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceImage-rEFM5mYkyy6MfshR"
+          },
+          {
+            "type": "resourceImage",
+            "visible": true,
+            "isLocked": false,
+            "name": "图片",
+            "componentProps": {
+              "resource": {
+                "id": "image_1745549261585",
+                "version": 0
+              },
+              "style": {
+                "x": 528,
+                "y": 755,
+                "width": 1368,
+                "height": 300,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceImage-bkPxxc32BjkYZAhJ"
+          },
+          {
+            "type": "resourceImage",
+            "visible": true,
+            "isLocked": false,
+            "name": "图片",
+            "componentProps": {
+              "resource": {
+                "id": "image_1745549222195",
+                "version": 0
+              },
+              "style": {
+                "x": 16,
+                "y": 123,
+                "width": 480,
+                "height": 932,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceImage-hXRPPeMKM34s4j8i"
+          },
+          {
+            "type": "resourceImage",
+            "visible": true,
+            "isLocked": false,
+            "name": "图片",
+            "componentProps": {
+              "resource": {
+                "id": "image_1745549240289",
+                "version": 0
+              },
+              "style": {
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 158,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceImage-Ki2ac2f4MDzptywM"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "照明设备"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "照明设备-文本框",
+            "componentProps": {
+              "style": {
+                "x": 44,
+                "y": 438,
+                "width": 150,
+                "height": 40,
+                "rotate": {
+                  "angle": 0,
+                  "rotateY": 0,
+                  "rotateX": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(151,227,248,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 270,
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "fontFamily": "fangsong",
+                "fontStyle": "italic",
+                "verticalAlign": "flex-start",
+                "horizontalAlign": "center",
+                "isTextShadow": true,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "rgba(0,0,0,0)",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "dashed",
+                "borderWidth": 0,
+                "borderRadius": 0,
+                "shadowColor": "rgba(0,118,234,1)",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0,
+                "backgroundImage": "/api/file/?:X_Access_Token=8a7e093416b1f1c3ae25f3a0fe986734",
+                "border": "0px dashed #000"
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-dx6x3PDEy7JkEe8R"
+          },
+          {
+            "type": "table",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "array",
+              "defaultValue": {
+                "data": [
+                  {
+                    "deviceName": "照明设备1",
+                    "devicePostion": "1层101室",
+                    "state": "正常",
+                    "time": "2025-04-23 17:42"
+                  },
+                  {
+                    "deviceName": "照明设备1",
+                    "devicePostion": "1层101室",
+                    "state": "正常",
+                    "time": "2025-04-23 17:42"
+                  },
+                  {
+                    "deviceName": "照明设备1",
+                    "devicePostion": "1层101室",
+                    "state": "异常",
+                    "time": "2025-04-23 17:42"
+                  },
+                  {
+                    "deviceName": "照明设备1",
+                    "devicePostion": "1层101室",
+                    "state": "正常",
+                    "time": "2025-04-23 17:42"
+                  },
+                  {
+                    "deviceName": "照明设备1",
+                    "devicePostion": "1层101室",
+                    "state": "正常",
+                    "time": "2025-04-23 17:42"
+                  }
+                ]
+              },
+              "mapping": {
+                "data": []
+              },
+              "sourceId": ""
+            },
+            "eventProps": [],
+            "animationProps": [],
+            "name": "照明设备-表格",
+            "componentProps": {
+              "style": {
+                "x": 43,
+                "y": 492,
+                "width": 446,
+                "height": 228,
+                "rotate": {
+                  "angle": 0
+                }
+              },
+              "table": {
+                "globalConfig": {
+                  "rotation": true,
+                  "rotationType": "item",
+                  "speed": 5000,
+                  "bgColor": "rgba(9,29,55,1)",
+                  "crossColor": "rgba(3,18,28,1)",
+                  "lineHeight": 36,
+                  "align": "flex-start",
+                  "fontFamily": "fangsong",
+                  "fontSize": 18,
+                  "fontColor": "rgba(205,208,210,1)",
+                  "fontBold": false,
+                  "fontItalic": false,
+                  "borderWidth": 0,
+                  "borderColor": "#3b3b3b",
+                  "drill": false,
+                  "drillParams": {
+                    "pageId": "",
+                    "params": []
+                  }
+                },
+                "tableHeader": {
+                  "fontFamily": "fangsong",
+                  "fontSize": 18,
+                  "fontColor": "#d9d9d9",
+                  "fontBold": false,
+                  "fontItalic": false,
+                  "lineHeight": 40,
+                  "align": "flex-start",
+                  "bgColor": "#rgba(0,33,95,0.1469)"
+                },
+                "columnConfig": [
+                  {
+                    "visible": true,
+                    "fieldKey": "deviceName",
+                    "fieldName": "名称",
+                    "width": "22",
+                    "displayMode": "default",
+                    "isTrendIcon": false
+                  },
+                  {
+                    "visible": true,
+                    "fieldKey": "devicePostion",
+                    "fieldName": "设备位置",
+                    "width": "22",
+                    "displayMode": "default",
+                    "fontFamily": "AliRegular",
+                    "fontSize": 12,
+                    "fontColor": "",
+                    "fontBold": false,
+                    "fontItalic": false
+                  },
+                  {
+                    "visible": true,
+                    "fieldKey": "state",
+                    "fieldName": "状态",
+                    "width": "15",
+                    "displayMode": "custom",
+                    "customItem": [
+                      {
+                        "cellBgColor": "rgba(0,0,0,0)",
+                        "actionBoundCondition": "eq",
+                        "actionBoundValue": "正常",
+                        "fontFamily": "fangsong",
+                        "fontSize": 18,
+                        "fontColor": "rgba(58,255,237,1)",
+                        "fontBold": false,
+                        "fontItalic": false,
+                        "type": "basic"
+                      },
+                      {
+                        "cellBgColor": "rgba(0,0,0,0)",
+                        "actionBoundCondition": "eq",
+                        "actionBoundValue": "异常",
+                        "fontFamily": "fangsong",
+                        "fontSize": 18,
+                        "fontColor": "rgba(252,208,59,1)",
+                        "fontBold": false,
+                        "fontItalic": false,
+                        "type": "basic"
+                      }
+                    ]
+                  },
+                  {
+                    "visible": true,
+                    "fieldKey": "time",
+                    "fieldName": "时间",
+                    "width": "36",
+                    "displayMode": "default",
+                    "fontFamily": "AliRegular",
+                    "fontSize": 12,
+                    "fontColor": "#00FF2F",
+                    "fontBold": true,
+                    "fontItalic": false,
+                    "actionBoundCondition": "eq",
+                    "actionBoundValue": "正常",
+                    "isTrendIcon": false
+                  }
+                ]
+              }
+            },
+            "id": "table-GfSYd4Rzi2iDY7p6"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "供配电系统"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "照明设备-文本框",
+            "componentProps": {
+              "style": {
+                "x": 44,
+                "y": 122,
+                "width": 150,
+                "height": 40,
+                "rotate": {
+                  "angle": 0,
+                  "rotateY": 0,
+                  "rotateX": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(151,227,248,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 270,
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "fontFamily": "fangsong",
+                "fontStyle": "italic",
+                "verticalAlign": "flex-start",
+                "horizontalAlign": "center",
+                "isTextShadow": true,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "rgba(0,0,0,0)",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "dashed",
+                "borderWidth": 0,
+                "borderRadius": 0,
+                "shadowColor": "rgba(0,118,234,1)",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0,
+                "backgroundImage": "/api/file/?:X_Access_Token=8a7e093416b1f1c3ae25f3a0fe986734",
+                "border": "0px dashed #000"
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-44WkbtmrPp8TB4iw"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "消防设备"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "照明设备-文本框",
+            "componentProps": {
+              "style": {
+                "x": 44,
+                "y": 751,
+                "width": 150,
+                "height": 40,
+                "rotate": {
+                  "angle": 0,
+                  "rotateY": 0,
+                  "rotateX": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(151,227,248,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 270,
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "fontFamily": "fangsong",
+                "fontStyle": "italic",
+                "verticalAlign": "flex-start",
+                "horizontalAlign": "center",
+                "isTextShadow": true,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "rgba(0,0,0,0)",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "dashed",
+                "borderWidth": 0,
+                "borderRadius": 0,
+                "shadowColor": "rgba(0,118,234,1)",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0,
+                "backgroundImage": "/api/file/?:X_Access_Token=8a7e093416b1f1c3ae25f3a0fe986734",
+                "border": "0px dashed #000"
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-KczkXtC5heSZYdBy"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "用电趋势"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "照明设备-文本框",
+            "componentProps": {
+              "style": {
+                "x": 559,
+                "y": 757,
+                "width": 150,
+                "height": 40,
+                "rotate": {
+                  "angle": 0,
+                  "rotateY": 0,
+                  "rotateX": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(151,227,248,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 270,
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "fontFamily": "fangsong",
+                "fontStyle": "italic",
+                "verticalAlign": "flex-start",
+                "horizontalAlign": "center",
+                "isTextShadow": true,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "rgba(0,0,0,0)",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "dashed",
+                "borderWidth": 0,
+                "borderRadius": 0,
+                "shadowColor": "rgba(0,118,234,1)",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0,
+                "backgroundImage": "/api/file/?:X_Access_Token=8a7e093416b1f1c3ae25f3a0fe986734",
+                "border": "0px dashed #000"
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-7h2SWhQFNnfTxjmP"
+          },
+          {
+            "type": "resourceComponentEcharts",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "object",
+              "defaultValue": {
+                "nameData": [
+                  "ab",
+                  "xx"
+                ],
+                "seriesData": [
+                  [
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat",
+                    "Sun"
+                  ],
+                  [
+                    820,
+                    932,
+                    901,
+                    934,
+                    1290,
+                    1330,
+                    1320
+                  ]
+                ]
+              },
+              "sourceId": "",
+              "propertyId": "",
+              "mapping": {
+                "nameData": [],
+                "seriesData": []
+              }
+            },
+            "name": "组件",
+            "componentProps": {
+              "resource": {
+                "id": "component_1745473167045",
+                "version": 0
+              },
+              "style": {
+                "x": 917,
+                "y": 744,
+                "width": 529,
+                "height": 333,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceComponentEcharts-nx3WCdYKmdtj8ZQ3"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "设备维修进度"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "照明设备-文本框",
+            "componentProps": {
+              "style": {
+                "x": 1007,
+                "y": 757,
+                "width": 150,
+                "height": 40,
+                "rotate": {
+                  "angle": 0,
+                  "rotateY": 0,
+                  "rotateX": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(151,227,248,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 270,
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "fontFamily": "fangsong",
+                "fontStyle": "italic",
+                "verticalAlign": "flex-start",
+                "horizontalAlign": "center",
+                "isTextShadow": true,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "rgba(0,0,0,0)",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "dashed",
+                "borderWidth": 0,
+                "borderRadius": 0,
+                "shadowColor": "rgba(0,118,234,1)",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0,
+                "backgroundImage": "/api/file/?:X_Access_Token=8a7e093416b1f1c3ae25f3a0fe986734",
+                "border": "0px dashed #000"
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-TNBtTFsCmfiY2XBd"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "年度报警数量"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "照明设备-文本框",
+            "componentProps": {
+              "style": {
+                "x": 1454,
+                "y": 757,
+                "width": 150,
+                "height": 40,
+                "rotate": {
+                  "angle": 0,
+                  "rotateY": 0,
+                  "rotateX": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(151,227,248,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 270,
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "fontFamily": "fangsong",
+                "fontStyle": "italic",
+                "verticalAlign": "flex-start",
+                "horizontalAlign": "center",
+                "isTextShadow": true,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "rgba(0,0,0,0)",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "dashed",
+                "borderWidth": 0,
+                "borderRadius": 0,
+                "shadowColor": "rgba(0,118,234,1)",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0,
+                "backgroundImage": "/api/file/?:X_Access_Token=8a7e093416b1f1c3ae25f3a0fe986734",
+                "border": "0px dashed #000"
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-SBxTPbTRrKrMKwHK"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "智慧厂区设备管理系统"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "文本框",
+            "componentProps": {
+              "style": {
+                "x": 40,
+                "y": 14,
+                "width": 449,
+                "height": 57,
+                "rotate": {
+                  "angle": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(227,241,255,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 180,
+                "fontSize": 44,
+                "fontWeight": "bold",
+                "fontFamily": "fangsong",
+                "fontStyle": "italic",
+                "verticalAlign": "center",
+                "horizontalAlign": "center",
+                "isTextShadow": true,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "#0000",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "solid",
+                "borderWidth": 0,
+                "borderRadius": 0,
+                "shadowColor": "rgba(8,105,160,0.82)",
+                "shadowBlur": 0,
+                "shadowX": 2,
+                "shadowY": 4,
+                "shadowDiff": 0,
+                "backgroundImage": "/api/file/?:X_Access_Token=8a7e093416b1f1c3ae25f3a0fe986734",
+                "border": "0px solid #000"
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-BwmnRyki2zjpmWjj"
+          },
+          {
+            "type": "resourceComponentEcharts",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "object",
+              "defaultValue": {
+                "nameData": [
+                  "ab",
+                  "xx"
+                ],
+                "seriesData": [
+                  [
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat",
+                    "Sun"
+                  ],
+                  [
+                    820,
+                    932,
+                    901,
+                    934,
+                    1290,
+                    1330,
+                    1320
+                  ]
+                ]
+              },
+              "sourceId": "",
+              "propertyId": "",
+              "mapping": {
+                "nameData": [],
+                "seriesData": []
+              }
+            },
+            "name": "组件",
+            "componentProps": {
+              "resource": {
+                "id": "component_1745458608776",
+                "version": 0
+              },
+              "style": {
+                "x": 1443,
+                "y": 786,
+                "width": 466,
+                "height": 294,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceComponentEcharts-3K7B5QBticFATK3Z"
+          },
+          {
+            "type": "resourceComponentEcharts",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "object",
+              "defaultValue": {
+                "nameData": [
+                  "ab",
+                  "xx"
+                ],
+                "seriesData": [
+                  [
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat",
+                    "Sun"
+                  ],
+                  [
+                    820,
+                    932,
+                    901,
+                    934,
+                    1290,
+                    1330,
+                    1320
+                  ]
+                ]
+              },
+              "sourceId": "",
+              "propertyId": "",
+              "mapping": {
+                "nameData": [],
+                "seriesData": []
+              }
+            },
+            "name": "组件",
+            "componentProps": {
+              "resource": {
+                "id": "component_1745483186354",
+                "version": 0
+              },
+              "style": {
+                "x": 556,
+                "y": 794,
+                "width": 435,
+                "height": 285,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceComponentEcharts-Y7ed6hDi35wFTanm"
+          },
+          {
+            "id": "container-idm76ZC3DpFzKX6C",
+            "visible": true,
+            "name": "containerd8EZbhE2N3mertej",
+            "type": "container",
+            "isGroup": true,
+            "zIndex": 21,
+            "isLocked": false,
+            "componentProps": {
+              "style": {
+                "x": 173,
+                "y": 949,
+                "width": 66,
+                "height": 64,
+                "angle": 0,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "正常："
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 0,
+                    "y": 4,
+                    "width": 46,
+                    "height": 28,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "flex-start",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-zYe3tEDtiiEdH582",
+                "parentGroupId": "container-idm76ZC3DpFzKX6C"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "异常："
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 0,
+                    "y": 34,
+                    "width": 42,
+                    "height": 30,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "flex-start",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-MdH2DQEbxnS3tcPZ",
+                "parentGroupId": "container-idm76ZC3DpFzKX6C"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "10"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 40,
+                    "y": 0,
+                    "width": 26,
+                    "height": 33,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "rgba(116,250,253,1)",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-nyWjxTap2rrPPmbX",
+                "parentGroupId": "container-idm76ZC3DpFzKX6C"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "2"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 40,
+                    "y": 31,
+                    "width": 26,
+                    "height": 33,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "rgba(252,208,59,1)",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-dzwMJFfWwdkhe6GR",
+                "parentGroupId": "container-idm76ZC3DpFzKX6C"
+              }
+            ]
+          },
+          {
+            "id": "beMijXyRNTKf82fH",
+            "visible": true,
+            "name": "containerjz7BbJCjfh5MJn5G",
+            "type": "container",
+            "isGroup": true,
+            "zIndex": 29,
+            "isLocked": false,
+            "componentProps": {
+              "style": {
+                "x": 10,
+                "y": 788,
+                "width": 233,
+                "height": 139,
+                "angle": 0,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "resourceImage",
+                "visible": true,
+                "isLocked": false,
+                "name": "图片",
+                "componentProps": {
+                  "resource": {
+                    "id": "image_1745489197816",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 129,
+                    "y": 25,
+                    "width": 104,
+                    "height": 78,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceImage-8sAwATj2jw4izQsp",
+                "parentGroupId": "dGwAbG45AYFcczQm"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "正常："
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 148,
+                    "y": 36,
+                    "width": 46,
+                    "height": 28,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "flex-start",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-JkTAz5EFPR2pxsdF",
+                "parentGroupId": "dGwAbG45AYFcczQm"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "异常："
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 148,
+                    "y": 66,
+                    "width": 42,
+                    "height": 30,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "flex-start",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-SMn8s4GJYYWrmNrQ",
+                "parentGroupId": "dGwAbG45AYFcczQm"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "10"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 188,
+                    "y": 32,
+                    "width": 26,
+                    "height": 33,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "rgba(116,250,253,1)",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-fEM7YiKrQYEKdWh4",
+                "parentGroupId": "dGwAbG45AYFcczQm"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "2"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 188,
+                    "y": 63,
+                    "width": 26,
+                    "height": 33,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "rgba(252,208,59,1)",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-CRQDayBbz28EwaNF",
+                "parentGroupId": "dGwAbG45AYFcczQm"
+              },
+              {
+                "type": "resourceComponentEcharts",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "object",
+                  "defaultValue": {
+                    "nameData": [
+                      "ab",
+                      "xx"
+                    ],
+                    "seriesData": [
+                      [
+                        "Mon",
+                        "Tue",
+                        "Wed",
+                        "Thu",
+                        "Fri",
+                        "Sat",
+                        "Sun"
+                      ],
+                      [
+                        820,
+                        932,
+                        901,
+                        934,
+                        1290,
+                        1330,
+                        1320
+                      ]
+                    ]
+                  },
+                  "sourceId": "",
+                  "propertyId": "",
+                  "mapping": {
+                    "nameData": [],
+                    "seriesData": []
+                  }
+                },
+                "name": "组件",
+                "componentProps": {
+                  "resource": {
+                    "id": "component_1745488107595",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 149,
+                    "height": 139,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceComponentEcharts-MR8SpWjSGrNyCZZS",
+                "parentGroupId": "5NSRX3TXMf58HpHT"
+              },
+              {
+                "type": "resourceImage",
+                "visible": true,
+                "isLocked": false,
+                "name": "图片",
+                "componentProps": {
+                  "resource": {
+                    "id": "image_1745485562075",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 58,
+                    "y": 41,
+                    "width": 34,
+                    "height": 40,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceImage-apQyWD2EAXYFikWH",
+                "parentGroupId": "5NSRX3TXMf58HpHT"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "消防栓"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 35,
+                    "y": 87,
+                    "width": 77,
+                    "height": 43,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 13,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-sBQYjA3TDcYiJDB6",
+                "parentGroupId": "5NSRX3TXMf58HpHT"
+              }
+            ]
+          },
+          {
+            "id": "iTFPHxm4C7AhJRRh",
+            "visible": true,
+            "name": "containerB84yT5RaXrhxYte3",
+            "type": "container",
+            "isGroup": true,
+            "zIndex": 26,
+            "isLocked": false,
+            "componentProps": {
+              "style": {
+                "x": 10,
+                "y": 919,
+                "width": 234,
+                "height": 139,
+                "angle": 0,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "resourceImage",
+                "visible": true,
+                "isLocked": false,
+                "name": "图片",
+                "componentProps": {
+                  "resource": {
+                    "id": "image_1745489197816",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 130,
+                    "y": 27,
+                    "width": 104,
+                    "height": 78,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceImage-YftBHb8QJcAFB7Pa",
+                "parentGroupId": "iTFPHxm4C7AhJRRh"
+              },
+              {
+                "type": "resourceComponentEcharts",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "object",
+                  "defaultValue": {
+                    "nameData": [
+                      "ab",
+                      "xx"
+                    ],
+                    "seriesData": [
+                      [
+                        "Mon",
+                        "Tue",
+                        "Wed",
+                        "Thu",
+                        "Fri",
+                        "Sat",
+                        "Sun"
+                      ],
+                      [
+                        820,
+                        932,
+                        901,
+                        934,
+                        1290,
+                        1330,
+                        1320
+                      ]
+                    ]
+                  },
+                  "sourceId": "",
+                  "propertyId": "",
+                  "mapping": {
+                    "nameData": [],
+                    "seriesData": []
+                  }
+                },
+                "name": "组件",
+                "componentProps": {
+                  "resource": {
+                    "id": "component_1745488107595",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 149,
+                    "height": 139,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceComponentEcharts-rPTtGmZBNmsn8fZk",
+                "parentGroupId": "TrcDDiieim26htPT"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "水泵水压"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 36,
+                    "y": 90,
+                    "width": 77,
+                    "height": 43,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 13,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-jDCcjEdszGGR2MzH",
+                "parentGroupId": "TrcDDiieim26htPT"
+              },
+              {
+                "type": "resourceImage",
+                "visible": true,
+                "isLocked": false,
+                "name": "图片",
+                "componentProps": {
+                  "resource": {
+                    "id": "image_1745485634912",
+                    "version": 1
+                  },
+                  "style": {
+                    "x": 58,
+                    "y": 44,
+                    "width": 34,
+                    "height": 40,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceImage-j8GHpRH4DeBkAC4x",
+                "parentGroupId": "TrcDDiieim26htPT"
+              }
+            ]
+          },
+          {
+            "id": "6nTBdexeMyzeG8BK",
+            "visible": true,
+            "name": "containerphNtdWN4T2bAXWfn",
+            "type": "container",
+            "isGroup": true,
+            "zIndex": 20,
+            "isLocked": false,
+            "componentProps": {
+              "style": {
+                "x": 234,
+                "y": 787,
+                "width": 243,
+                "height": 139,
+                "angle": 0,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "resourceComponentEcharts",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "object",
+                  "defaultValue": {
+                    "nameData": [
+                      "ab",
+                      "xx"
+                    ],
+                    "seriesData": [
+                      [
+                        "Mon",
+                        "Tue",
+                        "Wed",
+                        "Thu",
+                        "Fri",
+                        "Sat",
+                        "Sun"
+                      ],
+                      [
+                        820,
+                        932,
+                        901,
+                        934,
+                        1290,
+                        1330,
+                        1320
+                      ]
+                    ]
+                  },
+                  "sourceId": "",
+                  "propertyId": "",
+                  "mapping": {
+                    "nameData": [],
+                    "seriesData": []
+                  }
+                },
+                "name": "组件",
+                "componentProps": {
+                  "resource": {
+                    "id": "component_1745488107595",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 149,
+                    "height": 139,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceComponentEcharts-zedhXxBKri5jD2NT",
+                "parentGroupId": "KkfxXffxN2Yi7pZb"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "消防栓"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 35,
+                    "y": 87,
+                    "width": 84,
+                    "height": 47,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 13,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-pGTK8Nb4zdH45h4b",
+                "parentGroupId": "KkfxXffxN2Yi7pZb"
+              },
+              {
+                "type": "resourceImage",
+                "visible": true,
+                "isLocked": false,
+                "name": "图片",
+                "componentProps": {
+                  "resource": {
+                    "id": "image_1745485703942",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 58,
+                    "y": 41,
+                    "width": 34,
+                    "height": 40,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceImage-chTDKsbx77tDsa6w",
+                "parentGroupId": "KkfxXffxN2Yi7pZb"
+              },
+              {
+                "type": "resourceImage",
+                "visible": true,
+                "isLocked": false,
+                "name": "图片",
+                "componentProps": {
+                  "resource": {
+                    "id": "image_1745489197816",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 139,
+                    "y": 25,
+                    "width": 104,
+                    "height": 78,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceImage-n6Bp2xEmPxKkQbJx",
+                "parentGroupId": "NcNRBPFPp24mndzD"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "正常："
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 156,
+                    "y": 34,
+                    "width": 46,
+                    "height": 28,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "flex-start",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-4YpwntXxnmGzhtm6",
+                "parentGroupId": "container-QSccrrYNjWcBTkrZ"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "异常："
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 156,
+                    "y": 64,
+                    "width": 42,
+                    "height": 30,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "flex-start",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-jzzzaRC7z7e4iWwC",
+                "parentGroupId": "container-QSccrrYNjWcBTkrZ"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "10"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 196,
+                    "y": 30,
+                    "width": 26,
+                    "height": 33,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "rgba(116,250,253,1)",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-F8Wj8jkWNBpBKbww",
+                "parentGroupId": "container-QSccrrYNjWcBTkrZ"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "2"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 196,
+                    "y": 61,
+                    "width": 26,
+                    "height": 33,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "rgba(252,208,59,1)",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-B43yCKTnzZZcNHw5",
+                "parentGroupId": "container-QSccrrYNjWcBTkrZ"
+              }
+            ]
+          },
+          {
+            "id": "HMs3QacsnXfaMipn",
+            "visible": true,
+            "name": "containerZyCW4RXzhtsRyawY",
+            "type": "container",
+            "isGroup": true,
+            "zIndex": 19,
+            "isLocked": false,
+            "componentProps": {
+              "style": {
+                "x": 234,
+                "y": 919,
+                "width": 243,
+                "height": 139,
+                "angle": 0,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "resourceComponentEcharts",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "object",
+                  "defaultValue": {
+                    "nameData": [
+                      "ab",
+                      "xx"
+                    ],
+                    "seriesData": [
+                      [
+                        "Mon",
+                        "Tue",
+                        "Wed",
+                        "Thu",
+                        "Fri",
+                        "Sat",
+                        "Sun"
+                      ],
+                      [
+                        820,
+                        932,
+                        901,
+                        934,
+                        1290,
+                        1330,
+                        1320
+                      ]
+                    ]
+                  },
+                  "sourceId": "",
+                  "propertyId": "",
+                  "mapping": {
+                    "nameData": [],
+                    "seriesData": []
+                  }
+                },
+                "name": "组件",
+                "componentProps": {
+                  "resource": {
+                    "id": "component_1745488107595",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 149,
+                    "height": 139,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceComponentEcharts-3EBm5Qb2bQQpwrAA",
+                "parentGroupId": "pyCTe6WWKfaGpePn"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "自动报警机"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 36,
+                    "y": 89,
+                    "width": 84,
+                    "height": 47,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 13,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-kHRmX2TQ34Nd3Y5z",
+                "parentGroupId": "pyCTe6WWKfaGpePn"
+              },
+              {
+                "type": "resourceImage",
+                "visible": true,
+                "isLocked": false,
+                "name": "图片",
+                "componentProps": {
+                  "resource": {
+                    "id": "image_1745485687884",
+                    "version": 1
+                  },
+                  "style": {
+                    "x": 59,
+                    "y": 44,
+                    "width": 34,
+                    "height": 40,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceImage-6D8AiseFc2seeDZp",
+                "parentGroupId": "pyCTe6WWKfaGpePn"
+              },
+              {
+                "type": "resourceImage",
+                "visible": true,
+                "isLocked": false,
+                "name": "图片",
+                "componentProps": {
+                  "resource": {
+                    "id": "image_1745489197816",
+                    "version": 0
+                  },
+                  "style": {
+                    "x": 139,
+                    "y": 30,
+                    "width": 104,
+                    "height": 78,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  }
+                },
+                "id": "resourceImage-TZE8Cf7skrBAHBpw",
+                "parentGroupId": "wGi5SkBBtbhZ32er"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "正常："
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 156,
+                    "y": 36,
+                    "width": 46,
+                    "height": 28,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "flex-start",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-5jycZQMsMcnEPiB7",
+                "parentGroupId": "container-SmGrfYNkG32r6xsk"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "异常："
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 156,
+                    "y": 66,
+                    "width": 42,
+                    "height": 30,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "#fff",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "flex-start",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-TEFdJwikXfYs6GcD",
+                "parentGroupId": "container-SmGrfYNkG32r6xsk"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "10"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 196,
+                    "y": 32,
+                    "width": 26,
+                    "height": 33,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "rgba(116,250,253,1)",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-epSfDhRdhyG4YfpD",
+                "parentGroupId": "container-SmGrfYNkG32r6xsk"
+              },
+              {
+                "type": "text",
+                "visible": true,
+                "isLocked": false,
+                "dataSourceProps": {
+                  "mode": "static",
+                  "type": "string",
+                  "defaultValue": {
+                    "text": "2"
+                  },
+                  "sourceId": "",
+                  "mapping": {
+                    "text": []
+                  }
+                },
+                "eventProps": [],
+                "name": "文本框",
+                "componentProps": {
+                  "style": {
+                    "x": 196,
+                    "y": 63,
+                    "width": 26,
+                    "height": 33,
+                    "rotate": {
+                      "angle": 0
+                    }
+                  },
+                  "font": {
+                    "colorType": "default",
+                    "color": "rgba(252,208,59,1)",
+                    "color1": "#fff",
+                    "color2": "#096dd9",
+                    "gradientAngle": 180,
+                    "fontSize": 14,
+                    "fontWeight": "normal",
+                    "fontFamily": "Arial",
+                    "fontStyle": "normal",
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center",
+                    "isTextShadow": false,
+                    "textShadow": "0 5px 10px #096dd9"
+                  },
+                  "background": {
+                    "backgroundColor": "#0000",
+                    "imgField": "",
+                    "opacity": 1,
+                    "borderColor": "#000",
+                    "borderType": "solid",
+                    "borderWidth": 1,
+                    "borderRadius": 0,
+                    "shadowColor": "#0000",
+                    "shadowBlur": 0,
+                    "shadowX": 0,
+                    "shadowY": 0,
+                    "shadowDiff": 0
+                  },
+                  "text": {
+                    "scroll": false,
+                    "speed": 100
+                  }
+                },
+                "id": "text-KCcCm48Fs2zdFHEE",
+                "parentGroupId": "container-SmGrfYNkG32r6xsk"
+              }
+            ]
+          },
+          {
+            "type": "resourceImage",
+            "visible": true,
+            "isLocked": false,
+            "name": "图片",
+            "componentProps": {
+              "resource": {
+                "id": "image_1745546155545",
+                "version": 0
+              },
+              "style": {
+                "x": 63,
+                "y": 226,
+                "width": 105,
+                "height": 104,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceImage-3mN6XPWf3sCbr3wn"
+          },
+          {
+            "type": "resourceImage",
+            "visible": true,
+            "isLocked": false,
+            "name": "图片",
+            "componentProps": {
+              "resource": {
+                "id": "image_1745546177681",
+                "version": 0
+              },
+              "style": {
+                "x": 213,
+                "y": 226,
+                "width": 105,
+                "height": 104,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceImage-DjGPBwszmZWe3nEN"
+          },
+          {
+            "type": "resourceImage",
+            "visible": true,
+            "isLocked": false,
+            "name": "图片",
+            "componentProps": {
+              "resource": {
+                "id": "image_1745546155545",
+                "version": 0
+              },
+              "style": {
+                "x": 363,
+                "y": 226,
+                "width": 105,
+                "height": 104,
+                "rotate": {
+                  "angle": 0
+                }
+              }
+            },
+            "id": "resourceImage-tCsDzJYZMchDFS7D"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "高压柜状态"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "文本框",
+            "componentProps": {
+              "style": {
+                "x": 65,
+                "y": 343,
+                "width": 99,
+                "height": 30,
+                "rotate": {
+                  "angle": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "#fff",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 180,
+                "fontSize": 16,
+                "fontWeight": "normal",
+                "fontFamily": "Arial",
+                "fontStyle": "normal",
+                "verticalAlign": "center",
+                "horizontalAlign": "center",
+                "isTextShadow": false,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "#0000",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "solid",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "shadowColor": "#0000",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-hTPWSd8knJAFRFD5"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "低压柜状态"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "文本框",
+            "componentProps": {
+              "style": {
+                "x": 215,
+                "y": 344,
+                "width": 99,
+                "height": 30,
+                "rotate": {
+                  "angle": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "#fff",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 180,
+                "fontSize": 16,
+                "fontWeight": "normal",
+                "fontFamily": "Arial",
+                "fontStyle": "normal",
+                "verticalAlign": "center",
+                "horizontalAlign": "center",
+                "isTextShadow": false,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "#0000",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "solid",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "shadowColor": "#0000",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-KfXGDEEr4658WKyx"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "标压柜状态"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "文本框",
+            "componentProps": {
+              "style": {
+                "x": 365,
+                "y": 343,
+                "width": 99,
+                "height": 30,
+                "rotate": {
+                  "angle": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "#fff",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 180,
+                "fontSize": 16,
+                "fontWeight": "normal",
+                "fontFamily": "Arial",
+                "fontStyle": "normal",
+                "verticalAlign": "center",
+                "horizontalAlign": "center",
+                "isTextShadow": false,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "#0000",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "solid",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "shadowColor": "#0000",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-JZwDA6AZcYsppiws"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "正常"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "文本框",
+            "componentProps": {
+              "style": {
+                "x": 60,
+                "y": 253,
+                "width": 109,
+                "height": 50,
+                "rotate": {
+                  "angle": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(58,255,237,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 180,
+                "fontSize": 16,
+                "fontWeight": "normal",
+                "fontFamily": "Arial",
+                "fontStyle": "normal",
+                "verticalAlign": "center",
+                "horizontalAlign": "center",
+                "isTextShadow": false,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "#0000",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "solid",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "shadowColor": "#0000",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-MpS8WbBnR2cWXJ3x"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "异常"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "文本框",
+            "componentProps": {
+              "style": {
+                "x": 207,
+                "y": 253,
+                "width": 113,
+                "height": 48,
+                "rotate": {
+                  "angle": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(252,204,72,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 180,
+                "fontSize": 16,
+                "fontWeight": "normal",
+                "fontFamily": "Arial",
+                "fontStyle": "normal",
+                "verticalAlign": "center",
+                "horizontalAlign": "center",
+                "isTextShadow": false,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "#0000",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "solid",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "shadowColor": "#0000",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-rNGFNyDsWezD4fiZ"
+          },
+          {
+            "type": "text",
+            "visible": true,
+            "isLocked": false,
+            "dataSourceProps": {
+              "mode": "static",
+              "type": "string",
+              "defaultValue": {
+                "text": "正常"
+              },
+              "sourceId": "",
+              "mapping": {
+                "text": []
+              }
+            },
+            "eventProps": [],
+            "name": "文本框",
+            "componentProps": {
+              "style": {
+                "x": 360,
+                "y": 253,
+                "width": 109,
+                "height": 50,
+                "rotate": {
+                  "angle": 0
+                }
+              },
+              "font": {
+                "colorType": "default",
+                "color": "rgba(58,255,237,1)",
+                "color1": "#fff",
+                "color2": "#096dd9",
+                "gradientAngle": 180,
+                "fontSize": 16,
+                "fontWeight": "normal",
+                "fontFamily": "Arial",
+                "fontStyle": "normal",
+                "verticalAlign": "center",
+                "horizontalAlign": "center",
+                "isTextShadow": false,
+                "textShadow": "0 5px 10px #096dd9"
+              },
+              "background": {
+                "backgroundColor": "#0000",
+                "imgField": "",
+                "opacity": 1,
+                "borderColor": "#000",
+                "borderType": "solid",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "shadowColor": "#0000",
+                "shadowBlur": 0,
+                "shadowX": 0,
+                "shadowY": 0,
+                "shadowDiff": 0
+              },
+              "text": {
+                "scroll": false,
+                "speed": 100
+              }
+            },
+            "id": "text-SMzwBDH3p4xHKPEa"
+          }
+        ]
+      },
+      "sort": 1,
+      "createTime": 1745399770478,
+      "modifierId": "1199596756811550720",
+      "modifyTime": 1745733152601
+    }
+  ]
+}]
