@@ -5,7 +5,7 @@
       "configuration": {},
       "thumbnailUrl": "主接线图.png",
       "description": "主接线图",
-      "group": "template_init_configuration",
+      "group": "template_configuration_init",
       "templateType": "visProject",
       "projectPageType": "configuration"
     },

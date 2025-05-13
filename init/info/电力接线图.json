@@ -4,7 +4,7 @@
     "thumbnailUrl": "电力接线图.png",
     "description": "电力接线图",
     "configuration": {},
-    "group": "template_init_configuration",
+    "group": "template_configuration_init",
     "templateType": "visProject",
     "projectPageType": "configuration"
   },
